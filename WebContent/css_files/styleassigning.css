@@ -1,0 +1,166 @@
+/*Start temp modification */
+.nav>div>div h3 {
+    font-size: 15px !important;
+    right: -19px !important;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background: #22242a;
+    color: #fff;
+    padding: 20px 30px 10px;
+    bottom: 0;
+}
+
+/*End  modification */
+/*Start head*/
+.container .head {
+    text-align: center;
+    margin: calc(64px + 28px) 0 28px;
+}
+
+.container .head h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.container .head p {
+    letter-spacing: -0.2px;
+    font-weight: 600;
+    color: #777;
+}
+
+/*End head*/
+/* Start Search  */
+.container .searchBlock>input:first-of-type {
+    width: 100%;
+    padding: 6px 40px;
+    border-radius: 8px;
+    border: 1px solid #cdcbcb;
+    background-color: #eee;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.searchBlock {
+    position: relative;
+}
+
+input::placeholder {
+    font-weight: 600px;
+    caret-color: #777;
+}
+
+.searchBlock>i {
+    position: absolute;
+    top: 19%;
+    left: 19px;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* End Search  */
+/* Start Assigning  */
+
+.container div.assigning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container div.assigning>input {
+    padding: 4px 21px;
+    border-radius: 8px;
+    border: 1px solid #cdcbcb;
+    background-color: #eee;
+    position: relative;
+    width: 38%;
+}
+
+.container div.assigning>input:focus {
+    transform: scale(1.1);
+}
+
+/* End Assigning  */
+/* Start table*/
+.container table th {
+    text-transform: capitalize;
+}
+
+.container table th:first-child {
+    border-radius: 10px 0 0;
+}
+
+.container table th:last-of-type {
+    border-radius: 0 10px 0 0;
+}
+
+/* End table*/
+
+body {
+    color: #566787;
+    font-family: var(--body-font);
+    font-size: 13px;
+}
+
+.container form>select:first-of-type {
+    width: 40%;
+    display: inline;
+    background-color: #eeeeee;
+    box-shadow: 0 0 0 0;
+}
+
+.container form>select:last-of-type {
+    display: inline;
+    width: 40%;
+    margin-left: 10px;
+    background-color: #eeeeee;
+    box-shadow: 0 0 0 0;
+}
+
+.container form>select:focus {
+    background-color: #d4d3d3
+}
+
+.container form>input[type="submit"] {
+    width: 15%;
+    margin-left: 10px;
+    height: 37px;
+    font-size: 18px;
+    background-color: #5ea9ff;
+    color: white;
+    border: navajowhite;
+    border-radius: 6px;
+    transition: linear .5s;
+
+}
+
+.container form>input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #5ea9ff;
+    border: 1px solid #5ea9ff;
+}
+
+@media (max-width:771px) {
+    .container form>select {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .container form>input[type="submit"] {
+        width: 26%;
+        display: block;
+        margin: 0 auto;
+    }
+}
